@@ -1,0 +1,659 @@
+{
+  "packets": [
+    {
+      "id": "pkt-0001",
+      "raw_hex": "101a00044d5154540500001e05110000003c000873656e736f722d61",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "1000",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4401",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 1
+    },
+    {
+      "id": "pkt-0002",
+      "raw_hex": "20020000",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "1010",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4401",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 2
+    },
+    {
+      "id": "pkt-0003",
+      "raw_hex": "3213000764742f74656d7000640323000732312e35",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "1100",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4401",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 3
+    },
+    {
+      "id": "pkt-0004",
+      "raw_hex": "40020064",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "1105",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4401",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 4
+    },
+    {
+      "id": "pkt-0005",
+      "raw_hex": "3412000a616c61726d2f646f6f7200c86f70656e",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "1200",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4401",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 5
+    },
+    {
+      "id": "pkt-0006",
+      "raw_hex": "500200c8",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "1210",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4401",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 6
+    },
+    {
+      "id": "pkt-0007",
+      "raw_hex": "e00199",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "1220",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4401",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 7
+    },
+    {
+      "id": "pkt-0008",
+      "raw_hex": "101a00044d5154540500001e05110000003c000873656e736f722d61",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "1300",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 8
+    },
+    {
+      "id": "pkt-0009",
+      "raw_hex": "20020100",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "1310",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 9
+    },
+    {
+      "id": "pkt-0010",
+      "raw_hex": "500200c8",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "1320",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 10
+    },
+    {
+      "id": "pkt-0011",
+      "raw_hex": "620200c8",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "1330",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 11
+    },
+    {
+      "id": "pkt-0012",
+      "raw_hex": "700200c8",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "1340",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 12
+    },
+    {
+      "id": "pkt-0013",
+      "raw_hex": "3a0f000764742f74656d70006432312e35",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "1400",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 13
+    },
+    {
+      "id": "pkt-0014",
+      "raw_hex": "40020064",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "1405",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 14
+    },
+    {
+      "id": "pkt-0015",
+      "raw_hex": "320f000764742f74656d70006432322e30",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "1500",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 15
+    },
+    {
+      "id": "pkt-0016",
+      "raw_hex": "40020064",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "1505",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 16
+    },
+    {
+      "id": "pkt-0017",
+      "raw_hex": "3213000764742f74656d7000650323000732322e31",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "1600",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 17
+    },
+    {
+      "id": "pkt-0018",
+      "raw_hex": "40020065",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "1605",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 18
+    },
+    {
+      "id": "pkt-0019",
+      "raw_hex": "320c000000660323000732322e32",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "1610",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 19
+    },
+    {
+      "id": "pkt-0020",
+      "raw_hex": "40020066",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "1615",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 20
+    },
+    {
+      "id": "pkt-0021",
+      "raw_hex": "331100086366672f6d6f6465006761726d6564",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "1700",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 21
+    },
+    {
+      "id": "pkt-0022",
+      "raw_hex": "40020067",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "1705",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 22
+    },
+    {
+      "id": "pkt-0023",
+      "raw_hex": "330c00086366672f6d6f64650068",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "1710",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 23
+    },
+    {
+      "id": "pkt-0024",
+      "raw_hex": "40020068",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "1715",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 24
+    },
+    {
+      "id": "pkt-0025",
+      "raw_hex": "820b012c000005636d642f2301",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "1800",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 25
+    },
+    {
+      "id": "pkt-0026",
+      "raw_hex": "9004012c0001",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "1805",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 26
+    },
+    {
+      "id": "pkt-0027",
+      "raw_hex": "a20a012d000005636d642f23",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "1810",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4402",
+      "client_id_hint": "sensor-a",
+      "ingest_order": 27
+    },
+    {
+      "id": "pkt-0028",
+      "raw_hex": "101500044d5154540400003c0009676174657761792d62",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "2000",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.20:5101",
+      "client_id_hint": "gateway-b",
+      "ingest_order": 28
+    },
+    {
+      "id": "pkt-0029",
+      "raw_hex": "20020000",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "2010",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.20:5101",
+      "client_id_hint": "gateway-b",
+      "ingest_order": 29
+    },
+    {
+      "id": "pkt-0030",
+      "raw_hex": "320a000567772f7570003261",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "2100",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.20:5101",
+      "client_id_hint": "gateway-b",
+      "ingest_order": 30
+    },
+    {
+      "id": "pkt-0031",
+      "raw_hex": "40020032",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "2105",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.20:5101",
+      "client_id_hint": "gateway-b",
+      "ingest_order": 31
+    },
+    {
+      "id": "pkt-0032",
+      "raw_hex": "e000",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "2200",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.20:5101",
+      "client_id_hint": "gateway-b",
+      "ingest_order": 32
+    },
+    {
+      "id": "pkt-0033",
+      "raw_hex": "101500044d5154540400003c0009676174657761792d62",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "4200",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.20:5102",
+      "client_id_hint": "gateway-b",
+      "ingest_order": 33
+    },
+    {
+      "id": "pkt-0034",
+      "raw_hex": "20020100",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "4210",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.20:5102",
+      "client_id_hint": "gateway-b",
+      "ingest_order": 34
+    },
+    {
+      "id": "pkt-0035",
+      "raw_hex": "101a00044d5154540502001e05110000000000086465766963652d63",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "5000",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.30:6101",
+      "client_id_hint": "device-c",
+      "ingest_order": 35
+    },
+    {
+      "id": "pkt-0036",
+      "raw_hex": "20020000",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "5010",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.30:6101",
+      "client_id_hint": "device-c",
+      "ingest_order": 36
+    },
+    {
+      "id": "pkt-0037",
+      "raw_hex": "34080003642f61038478",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "5100",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.30:6101",
+      "client_id_hint": "device-c",
+      "ingest_order": 37
+    },
+    {
+      "id": "pkt-0038",
+      "raw_hex": "e00199",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "5110",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.30:6101",
+      "client_id_hint": "device-c",
+      "ingest_order": 38
+    },
+    {
+      "id": "pkt-0039",
+      "raw_hex": "101a00044d5154540502001e05110000000000086465766963652d63",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "6000",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.30:6102",
+      "client_id_hint": "device-c",
+      "ingest_order": 39
+    },
+    {
+      "id": "pkt-0040",
+      "raw_hex": "20020000",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "6010",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.30:6102",
+      "client_id_hint": "device-c",
+      "ingest_order": 40
+    },
+    {
+      "id": "pkt-0041",
+      "raw_hex": "34080003642f62038479",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "6100",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.30:6102",
+      "client_id_hint": "device-c",
+      "ingest_order": 41
+    },
+    {
+      "id": "pkt-0042",
+      "raw_hex": "50020384",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "6105",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.30:6102",
+      "client_id_hint": "device-c",
+      "ingest_order": 42
+    },
+    {
+      "id": "pkt-0043",
+      "raw_hex": "62020384",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "6110",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.30:6102",
+      "client_id_hint": "device-c",
+      "ingest_order": 43
+    },
+    {
+      "id": "pkt-0044",
+      "raw_hex": "70020384",
+      "direction": "B2C",
+      "observed_at": {
+        "original": "6115",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.30:6102",
+      "client_id_hint": "device-c",
+      "ingest_order": 44
+    },
+    {
+      "id": "pkt-0045",
+      "raw_hex": "c000",
+      "direction": "C2B",
+      "observed_at": {
+        "original": "soon-ish",
+        "unit": "bad",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.20:5102",
+      "client_id_hint": "gateway-b",
+      "ingest_order": 45
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "snap-001",
+      "client_id": "sensor-a",
+      "observed_at": {
+        "original": "1215",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.10:4401",
+      "json": {
+        "inflight_packet_ids": [
+          200
+        ],
+        "session_present": true,
+        "source": "broker-session-dump",
+        "virtual_time_original": "1215",
+        "virtual_time_unit": "ms"
+      }
+    },
+    {
+      "id": "snap-002",
+      "client_id": "device-c",
+      "observed_at": {
+        "original": "5105",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.30:6101",
+      "json": {
+        "clean_start": true,
+        "generation_serial": 1,
+        "inflight_packet_ids": [
+          900
+        ],
+        "source": "broker-session-dump",
+        "virtual_time_original": "5105",
+        "virtual_time_unit": "ms"
+      }
+    },
+    {
+      "id": "snap-003",
+      "client_id": "device-c",
+      "observed_at": {
+        "original": "6108",
+        "unit": "ms",
+        "epoch_ns": 0
+      },
+      "connection_id": "tcp-10.0.0.30:6102",
+      "json": {
+        "clean_start": true,
+        "generation_serial": 2,
+        "inflight_packet_ids": [
+          900
+        ],
+        "note": "same numeric packet id as snap-002, different session generation",
+        "source": "broker-session-dump",
+        "virtual_time_original": "6108",
+        "virtual_time_unit": "ms"
+      }
+    }
+  ],
+  "params": {
+    "mqtt311_session_expiry_seconds": {
+      "name": "mqtt311_session_expiry_seconds",
+      "value": "2",
+      "unit": "s"
+    }
+  },
+  "case_title": "MQTT 会话印迹：QoS 握手、持久状态与重连去重回放"
+}
